@@ -6,7 +6,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**LegendTagger Bot**, \nDaha çox bilgi üçün **/help**'i yazın.",
+  await event.reply("**bgm Bot**, \n",
                     buttons=(
                       [Button.url('Owner BGM', 'https://t.me/aliyefhsos'),
                       [Button.url('Instagram', 'https://t.me/aliyefh_sos'),
