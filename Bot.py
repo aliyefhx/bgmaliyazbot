@@ -14,3 +14,5 @@ async def start(event):
                     ),
                     link_preview=False
                    )
+print("BOT ONLINE")
+client.run_until_disconnected()
